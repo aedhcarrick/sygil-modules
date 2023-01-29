@@ -1,0 +1,28 @@
+{
+	"name" : "Canvas",
+	"app" : "canvas_app",
+	"fonts" : [
+	],
+    "settings" : [
+		{
+			"display" : "canvas_settings",
+			"title" : "Canvas Settings",
+			"groups" : [
+				"admin",
+				"user",
+				"guest"
+			]
+		},
+		{
+			"display" : "canvas_management_settings",
+			"title" : "Canvas Management Settings",
+			"groups" : [
+				"admin"
+			]
+		}
+	],
+	"dependencies" : [
+		"flet",
+		"os"
+	]
+}
